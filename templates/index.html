@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irregular Verbs</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2rem;
+        color: #555;
+      }
+
+      .main {
+        display: inline-block;
+        margin: 20px auto;
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+      }
+
+      .main:hover {
+        background-color: #0056b3;
+      }
+
+      .description {
+        text-align: center;
+        margin: 20px;
+        font-size: 1rem;
+        color: #666;
+      }
+
+      .author {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 0.9rem;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Irregular Verbs</h1>
+    <div class="description">
+      <p><strong>English:</strong> Explore a comprehensive list of irregular verbs to enhance your language skills.</p>
+      <p><strong>Русский:</strong> Изучите полный список неправильных глаголов для улучшения ваших языковых навыков.</p>
+      <p><strong>O'zbekcha:</strong> Til ko'nikmalaringizni oshirish uchun to'liq noto'g'ri fe'llar ro'yxatini o'rganing.</p>
+    </div>
+    <div style="text-align: center;">
+      <a href="{% url 'irregular-verb-list' %}" class="main">View List</a>
+    </div>
+    <div class="author">
+      <p>Created by Mirsaidov Saidkamol</p>
+    </div>
+  </body>
+</html>
